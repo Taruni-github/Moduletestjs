@@ -1,0 +1,318 @@
+.one{    
+    margin-top: 40px;
+ display: flex;
+ width: 900px;
+height: 158px;
+top: 62px;
+left: 240px;
+border-radius: 13px;
+border: 2px;
+border: 2px solid #FFFFFF;
+}
+.hidden{
+  display: none;
+}
+ol{
+    list-style: none;
+}
+#ta{
+    display: flex;
+    flex-direction:row;
+    justify-content:end;
+    padding-top: 13px;
+    padding-left: 300px;
+}
+.ta1{
+    width: 180px;
+    height: 128px;
+    top: 77px;
+    left: 713px;
+    border-radius: 9px;
+    background: #FFFFFF;
+}
+#list{
+    width: 278px;
+height: 400px;
+top: 330px;
+left: 800px;
+border-radius: 13px;
+border: 7px;
+background: #004429;
+border: 7px solid #FFFFFF;
+font-size: larger;
+padding-top: 20px;
+}
+li{color:#FFD600}
+li span{color:white}
+
+.main-page {
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#computer-score,
+#player-score {
+  color: black;
+  font-size: 2em;
+}
+
+#playerchoice1 {
+  position: absolute;
+  top: 7.7rem;
+  right: 58.5rem;
+  background: none;
+  border: none;
+  z-index: 1;
+}
+#playerchoice2 {
+  position: absolute;
+  top: 20rem;
+  right: 50rem;
+  background: none;
+  border: none;
+  z-index: 1;
+}
+#playerchoice3 {
+  position: absolute;
+  top: 8rem;
+  right: 41.5rem;
+  background: none;
+  border: none;
+  z-index: 1;
+}
+
+.circle {
+position:relative;
+width: 170px;
+height: 170px;
+top: 130px;
+left: 10px;
+}
+.image{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 70px;
+top: 200px;
+left: 100px;
+}
+
+#line3{
+  position: absolute;
+  top: 405px;
+left: 525px;
+}
+#line2 {
+  position: absolute;
+  top:400px;
+  left: 700px;
+}
+
+#line1 {
+  position: absolute;
+  top: 320px;
+left: 585px;
+}
+.toggleX {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+#cross{
+  position: relative;
+}
+#x {
+  position: absolute;
+  right: 18px;
+  top: 15px;
+  cursor: pointer;
+}
+.rulesButton {
+  position: fixed;
+  bottom: 10px;
+  right: 280px;
+  font-size: 1.3em;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 10px;
+  z-index: 1001;
+  cursor: pointer;
+}
+.rulesButton.hidden{
+  display: block;
+}
+.Popup{
+  position: fixed;
+  top: 200px;
+  right: 6rem;
+  z-index: 1000; 
+  display:none;
+}
+/* start of page2 */
+.page2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game-won {
+  text-align: center;
+  color: white;
+}
+.game-won img {
+  display: block; 
+  margin: 0 auto; 
+}
+
+.game-won h1 {
+  font-family: Roboto;
+  font-size: 91px;
+  font-weight: 600;
+  line-height: 107px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.game-won h2 {
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  text-align: center;  
+}
+
+.playagain {
+  background-color: white;
+  color: black;
+  padding: 15px 45px;
+  border-radius: 10px;
+  border-style: none;
+  text-decoration: none;
+  list-style: none;
+  top: 50px;
+}
+#stars{
+  position: relative;
+}
+#trophy{
+  position: absolute;
+  top: 130px;
+  right:650px;
+}
+/* end */
+
+#three {
+  display: none;
+}
+.result-div {
+  display: flex;
+  position: absolute;
+  top: 8rem;
+  left: 17rem;
+}
+
+#playerChoiceImg,#computerChoiceImg{
+  padding-top:0px;
+}
+.pick1 h2,
+.pick2 h2 {
+  color: white;
+  padding-top:110px;
+}
+.you-pick,
+.computer-pick {
+  position: relative;
+}
+.result-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem;
+  width: 500px;
+  padding-top: 300px;
+}
+.result-text h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+}
+.main-result-text{
+  font-weight: 600; 
+  font-size: 3rem; 
+  letter-spacing: 2px;
+}
+.comain-result-text{
+  font-size: 1.5rem; 
+  margin: 20px ;
+}
+.play-again {
+  background-color: white;
+  color: black;
+  padding: 15px 45px;
+  border-radius: 10px;
+  max-width: 200px;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 40.7rem;
+  right:5rem;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+.next a {
+  color: white;
+}
+
+/* Animation */
+.pulse {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #289a27;
+  border-radius: 50%;
+  top: 180px;
+  left: -16px;
+}
+.pulse .circle{
+  top:  0.5px;
+  left: 10px;
+}
+.pulse .image{
+  left: 90px;
+  top: 80px;
+}
+
+.pulse span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  opacity: 0.8;
+  animation: pulseAnimate 2s ease-out infinite;
+  animation-delay: calc(0.5s * var(--p));
+}
+
+@keyframes pulseAnimate {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+
+

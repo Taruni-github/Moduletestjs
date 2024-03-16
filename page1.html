@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body style="background: #89C15E;">
+    <center>
+      <!-- first section -->
+    <div class="one">
+        <ol>
+        <li style="color: white;font-size: xx-large;">ROCK</li>
+        <li style="color: white;font-size: xx-large;">PAPER</li>
+        <li style="color: white;font-size: xx-large;">SCISSORS</li>
+        </ol>
+        <div id="ta">
+        <div class="ta1">
+            <h3 style="color: #656565;font-size:large;text-align: center;
+            ">COMPUTER<br>SCORE</h3>
+            <b><p style="font-size:35px;" id="computer-score">0</p></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="ta1">
+            <h3 style="color: #656565;font-size:large;text-align: center;">YOUR<br>SCORE</h3>
+            <b><p style="font-size:35px" id="player-score">0</p></b>
+        </div>
+      </div>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </center>
+        
+      <!-- second section -->
+  
+      <div id="sec1" class="sec1">
+        <button id="playerchoice1" onclick="playerChoice('rock')"><img src="Group 2.svg" class="circle">
+                <img src="rock.png" class="image">
+        </button>
+        <img id="line3" src="Line 3.png">
+        <button id="playerchoice2" onclick="playerChoice('paper')"><img src="Group 1.svg" class="circle">
+          <img src="paper.png" class="image">
+        </button>
+        <img id="line2" src="Line 2.png">
+        <button id="playerchoice3" onclick="playerChoice('scissors')"><img src="Group 3.svg" class="circle">
+          <img src="scissors.png" class="image">
+         </button>
+        <img id="line1" src="Line 1.png">
+    </div>
+
+    <!-- third section -->
+    <div class="three" id="three">
+      <h1> <span id="player"></span></h1>
+      <h1> <span id="computer"></span></h1>
+      <div class="result-div">
+          <div class="pick1">
+              <span style="--p:0;"></span>
+              <span style="--p:1;"></span>
+              <span style="--p:2;"></span>
+              <span style="--p:3;"></span>
+              <h2>YOU PICKED</h2>
+              <div class="playerchoice you-pick" id="playerChoiceImg">
+                  <button class="circle"></button>
+                  <button class="image"></button>
+              </div>
+          </div>
+          <div class="result-text">
+              <div id="result" class="resultMessage"></div>
+              <button class="play-again" onclick="playAgain()">PLAY AGAIN</button>
+          </div>
+          <div class="pick2">
+              <span style="--p:0;"></span>
+              <span style="--p:1;"></span>
+              <span style="--p:2;"></span>
+              <span style="--p:3;"></span>
+              <h2>PC PICKED</h2>
+              <div class="playerchoice computer-pick" id="computerChoiceImg">
+                  <button class="circle"></button>
+                  <button class="image"></button>
+              </div>
+          </div>
+      </div>
+      <button class="next hidden"><a href="page2.html">NEXT</a></button>
+  </div>
+
+
+<!-- RULES -->
+<div id="rules" class="rules">
+        <div class="Popup" id="Popup">
+            <div  class="myPopup" id="myPopup">
+              <ul id="list" style="list-style-type:square;">
+                <center style="font-size: larger;color: white;">GAME RULES</center>&nbsp;
+                <li><span>Rock beats scissors, scissors beat paper, and paper beats rock.</span></li>&nbsp;
+                <li><span>Agree ahead of time whether you'll count off "rock,paper, scissors, shoot" or just "rock,paper,scissors."</span></li>&nbsp;
+                <li><span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</span></li>&nbsp;
+                <li><span>If both players lay down the same hand, each player lays down another hand</span></li>
+              </ul>
+            </div>
+            <div class="toggleX" onclick="toggleContainer()">
+              <img src="Ellipse 6.png" id="cross">
+              <img src="X.png" id="x">
+          </div>
+          </div>
+      <button id="rulesButton" class="rulesButton" onclick="rulesToggle()">RULES</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

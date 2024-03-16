@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body style="background: #89C15E;">
+    <div class="page2"> 
+        <div class="game-won">
+            <img src="Group 5.png" id="stars" >
+            <img src="Vector (1).png" id="trophy" >
+            <h1>HURRAY!!</h1>
+            <h2>YOU WON THE GAME</h2>
+            <button class="playagain"><a href="page1.html">PLAY AGAIN</a></button>
+        </div>
+        <div id="rules" class="rules">
+          <div class="Popup" id="Popup">
+              <div  class="myPopup" id="myPopup">
+                <ul id="list" style="list-style-type:square;">
+                  <center style="font-size: larger;color: white;">GAME RULES</center>&nbsp;
+                  <li><span>Rock beats scissors, scissors beat paper, and paper beats rock.</span></li>&nbsp;
+                  <li><span>Agree ahead of time whether you'll count off "rock,paper, scissors, shoot" or just "rock,paper,scissors."</span></li>&nbsp;
+                  <li><span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</span></li>&nbsp;
+                  <li><span>If both players lay down the same hand, each player lays down another hand</span></li>
+                </ul>
+              </div>
+              <div class="toggleX" onclick="toggleContainer()">
+                <img src="Ellipse 6.png" id="cross">
+                <img src="X.png" id="x">
+            </div>
+            </div>
+        <button id="rulesButton" class="rulesButton" onclick="rulesToggle()">RULES</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
